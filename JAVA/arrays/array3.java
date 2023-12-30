@@ -1,4 +1,4 @@
-public class RunningSumOfArray {
+public class array3 {
     public static int[] runningSum(int[] nums) {
         int n = nums.length;
         int[] result = new int[n];
@@ -15,8 +15,6 @@ public class RunningSumOfArray {
     public static void main(String[] args) {
         int[] originalArray = { 1, 2, 3, 4 };
         int[] runningSumArray = runningSum(originalArray);
-
-        // Print the result
         for (int num : runningSumArray) {
             System.out.print(num + " ");
         }
