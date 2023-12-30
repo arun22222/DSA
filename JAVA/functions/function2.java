@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenOdd {
+public class function2 {
     public static void checkEvenOdd(int num) {
         if (num % 2 == 0) {
             System.out.println(num + " is even.");
